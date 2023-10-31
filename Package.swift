@@ -17,8 +17,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "MyTrafficLocation",
-            url: "https://s3.eu-central-1.amazonaws.com/public-artifacts.mytraffic.io/location-sdk-ios/v3.1.4/MyTrafficLocation.xcframework.zip",
-            checksum: "8b1701a7e65679199277eaf277ce2ec6d7472451a5d500ff54c5fe3e1b503c34"
+            url: "https://s3.eu-central-1.amazonaws.com/public-artifacts.mytraffic.io/location-sdk-ios/v3.2.0/MyTrafficLocation.xcframework.zip",
+            checksum: "bed96755058588a463adc4eb3d64f162424e5b407efff5d32ca486aa4b7c95c4"
         ),
     ]
 )
