@@ -4,7 +4,7 @@ import PackageDescription
 let package = Package(
     name: "MyTrafficLocationPackage",
     platforms: [
-        .iOS(.v13)
+        .iOS(.v13),
     ],
     products: [
         .library(
@@ -17,8 +17,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "MyTrafficLocation",
-            url: "https://s3.eu-central-1.amazonaws.com/public-artifacts.mytraffic.io/location-sdk-ios/v3.3.1/MyTrafficLocation.xcframework.zip",
-            checksum: "60feca8a94236a6add446bc0d98819570745f6290f93b9c3881d8ea13afee0ac"
+            url: "https://s3.eu-central-1.amazonaws.com/public-artifacts.mytraffic.io/location-sdk-ios/v3.3.2/MyTrafficLocation.xcframework.zip",
+            checksum: "2f593baefbb73afd8c7637cf177eedb230a6c2986b02dabd93c9c8af6ad1d975"
         ),
     ]
 )
